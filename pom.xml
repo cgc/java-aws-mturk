@@ -4,7 +4,7 @@
     <groupId>com.amazon</groupId>
     <artifactId>java-aws-mturk</artifactId>
     <packaging>jar</packaging>
-    <version>1.2.2</version>
+    <version>1.6.2</version>
     <name>java-aws-mturk</name>
 
     <properties>
@@ -44,6 +44,27 @@
     </repositories>
 
     <dependencies>
+
+      <dependency>
+        <groupId>commons-httpclient</groupId>
+        <artifactId>commons-httpclient</artifactId>
+        <version>3.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.amazon</groupId>
+        <artifactId>java-aws-mturk-commons-httpclient-contrib</artifactId>
+        <version>1.6.2</version>
+      </dependency>
+      <dependency>
+        <groupId>com.amazon</groupId>
+        <artifactId>aws-mturk-dataschema</artifactId>
+        <version>1.6.2</version>
+      </dependency>
+      <dependency>
+        <groupId>com.amazon</groupId>
+        <artifactId>aws-mturk-wsdl</artifactId>
+        <version>1.6.2</version>
+      </dependency>
       <!-- mturk dependencies -->
         <dependency>
           <groupId>log4j</groupId>
